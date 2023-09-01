@@ -2831,6 +2831,18 @@ version = "0.5.12"
 source = "git+https://github.com/manta-network/manta-rs?tag=v0.5.12#ba1a4b747456bc4f76a9cb18b515aaf0810b4c9c"
 dependencies = [
  "anyhow",
+ "blake3",
+ "gitignore",
+ "hex",
+ "walkdir",
+]
+
+[[package]]
+name = "manta-parameters"
+version = "0.6.2"
+source = "git+https://github.com/manta-network/manta-rs?tag=v0.6.2#eb282b1aeeccbf231cfe02dbaa4dc8c8e3aa29f3"
+dependencies = [
+ "anyhow",
  "attohttpc 0.24.1",
  "blake3",
  "gitignore",
@@ -2876,7 +2888,7 @@ dependencies = [
 
 [[package]]
 name = "manta-signer"
-version = "1.2.0"
+version = "1.2.1"
 dependencies = [
  "argon2",
  "async-std",
@@ -2888,7 +2900,7 @@ dependencies = [
  "http-types",
  "manta-accounting 0.5.12",
  "manta-crypto 0.5.12",
- "manta-parameters 0.5.12",
+ "manta-parameters 0.6.2",
  "manta-pay 0.5.10",
  "manta-pay 0.5.12",
  "manta-util 0.5.12",
@@ -2905,7 +2917,7 @@ dependencies = [
 
 [[package]]
 name = "manta-signer-ui"
-version = "1.2.0"
+version = "1.2.1"
 dependencies = [
  "manta-signer",
  "tauri",
