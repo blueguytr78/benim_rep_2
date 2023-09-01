@@ -2876,7 +2876,7 @@ dependencies = [
 
 [[package]]
 name = "manta-signer"
-version = "1.2.0"
+version = "1.2.1"
 dependencies = [
  "argon2",
  "async-std",
@@ -2891,7 +2891,7 @@ dependencies = [
  "manta-parameters 0.5.12",
  "manta-pay 0.5.10",
  "manta-pay 0.5.12",
- "manta-util 0.5.12",
+ "manta-util 0.6.2",
  "parking_lot",
  "password-hash",
  "reqwest",
@@ -2905,7 +2905,7 @@ dependencies = [
 
 [[package]]
 name = "manta-signer-ui"
-version = "1.2.0"
+version = "1.2.1"
 dependencies = [
  "manta-signer",
  "tauri",
@@ -2931,6 +2931,11 @@ dependencies = [
  "serde",
  "serde_with",
 ]
+
+[[package]]
+name = "manta-util"
+version = "0.6.2"
+source = "git+https://github.com/manta-network/manta-rs?tag=v0.6.2#eb282b1aeeccbf231cfe02dbaa4dc8c8e3aa29f3"
 
 [[package]]
 name = "markup5ever"
